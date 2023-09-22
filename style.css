@@ -1,0 +1,210 @@
+
+.navbar .nav-link.active{
+    color: #fff;
+}
+.nav-link{
+    text-align: center;
+    color: #fff;
+    margin-right: 6px;
+}
+.nav-link.active{
+    background-color: aqua;
+}
+.nav-link:hover{
+    color: #ffff;
+}
+section{
+    background-color: rgb(252, 252, 252);
+    padding-top: 70px;
+    position: absolute;
+}
+
+header{
+    position: sticky;
+    z-index:100;
+    top:0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+}
+.nav-pills .nav-link.nav-link.active{
+    background-color: lightseagreen;
+}
+.navbar-toggler{
+    background-color: cornsilk;
+   margin-right: 12px;
+}
+.marca{
+    margin: 0 auto;
+    padding-left: 12px;
+    margin-left: 12px;  
+    display: flex;
+    border-radius: 6px;
+    padding: 0;
+}
+h1{
+    padding-top: 16px;
+    padding-left: 2px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+i{
+    padding-top: 1px;
+    color: #fff;
+}
+
+.tamanho{
+width: 1900px;
+height: 800px;
+}
+
+section{
+    padding-top: 12px;
+    position: relative;
+    z-index: -1;
+    padding-bottom: 12px;
+}
+.cor{
+    background-color: rgba(0,0,0,0.4);
+}
+section h2,p{
+    text-align: center;
+}
+
+
+.text-colored, #pacotes h4, #pacotes h2, #promocoes h2, #login h2{
+    color: rgb(34, 34, 116);
+    font-style: italic;
+}
+#cadastro h2{
+    text-align: center;
+    padding-top: 24px;
+    border-bottom: 4px solid rgb(34, 34, 116);;
+    color: rgb(34, 34, 116);
+    font-style: italic;
+
+}
+#sobre-img{
+    border-style: double;
+    border:12px solid rgb(0, 0, 0);
+}
+
+#sobre, #promocoes{
+    background-color:rgba(196, 178, 178, 0.5) ;
+}
+#card{
+    background-color: rgba(0,0,0,0.4);
+}
+.price{
+        padding-top: 0px;
+    
+}
+img{
+    border: 2px solid black;
+}
+form{
+    padding-left:100px;
+    margin-left: 100px;
+}
+
+form h4{
+    border-bottom: 4px solid gray;
+    padding-bottom: 12px;
+}
+.form-check{
+    padding-right: 48px;
+    padding-top: 12px;
+}
+.form-check button, .form-check label{
+    text-align: center;
+}
+
+.produtos{
+    text-align: center;
+}
+
+.form{
+    border:2px dotted rgb(153, 140, 140);
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+}
+
+.d-flex button{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+h4{
+    padding-top: 12px;
+}
+form{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.form-campo{
+    margin-bottom: 16px;
+    
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input{ 
+    font-size: 10px;
+    width: 100%;
+    display: block;
+    padding: 16px;
+    background-color: #ffff;
+}
+
+#centro{
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+    justify-content: center;
+}
+
+footer li img{
+    height: 32px;
+}
+
+footer{
+    background-color: #000000;
+    padding-top: 16px;
+    color: #ffff;
+    display: flex;
+}
+
+@media screen and (max-width: 767px){
+
+    .carousel{
+        max-width: 100%;
+    }
+    .carousel img{
+        width:600px;
+        height: 300px;
+    } 
+    .carousel h2{
+        font-size: small;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+    .carousel{
+        max-width: 100%;
+    }
+    .carousel img{
+        width:1000px;
+        height: 400px;
+    } 
+}
+
